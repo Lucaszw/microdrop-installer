@@ -1,0 +1,23 @@
+{
+  "name": "@microdrop/installer",
+  "version": "0.0.1",
+  "description": "Creates an installer and launcher for microdrop through Conda Constructor",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucaszw/microdrop-installer.git"
+  },
+  "keywords": [
+    "Microdrop",
+    "Installer"
+  ],
+  "author": "Sci-Bots",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Lucaszw/microdrop-installer/issues"
+  },
+  "homepage": "https://github.com/Lucaszw/microdrop-installer#readme"
+}
