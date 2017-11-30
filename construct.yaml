@@ -1,0 +1,28 @@
+name: Microdrop
+version: 0.0.1
+
+
+channels:
+  - https://conda.anaconda.org/lucaszw
+  - https://conda.anaconda.org/sci-bots
+  - https://conda.anaconda.org/conda-forge
+  - https://conda.anaconda.org/dfroger
+
+specs:
+  - python 3.5*
+  - conda
+  - anaconda-client
+  - jupyter_core
+  - nodejs 8*
+
+install_in_dependency_order: True
+
+ignore_duplicate_files: True
+
+installer_type: sh [osx]
+
+post_install: post_install.sh
+
+license_file: LICENSE
+
+welcome_image: welcome.png
